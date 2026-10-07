@@ -97,8 +97,8 @@ Vous pouvez contribuer au standard en créant une issue sur cette page (il s'agi
 
 ### Nous contacter
 
-Pour contacter le GT CNIG <mark>_thématique_</mark>, écrire à l’adresse cnig[at]cnig.fr.
+Pour contacter le GT CNIG Haies, écrire à l’adresse cnig[at]cnig.fr.
 
 ### Licence
 
-Les travaux du GT CNIG <mark>_thématique_</mark> sont réalisés sous [Licence Ouverte Etalab 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/).
+Les travaux du GT CNIG Haies sont réalisés sous [Licence Ouverte Etalab 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/).
