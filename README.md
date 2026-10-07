@@ -28,7 +28,8 @@
 Davantage de documentation peut être trouvée sur le site du CNIG au lien suivant : <mark>_insérer le lien vers la page du GT_</mark>.
 
 > Insérer une (ou plusieurs) image(s) pour illustrer la thématique en remplaçant le logo du CNIG ci-dessous.  
-<!-- Pour remplacer le logo du CNIG, suivre le modèle "![texte alternatif](lien vers l'image) Les images peuvent être chargées sur le dépôt Github dans un dossier image -->
+<!-- Pour remplacer le logo du CNIG, suivre le modèle "Les images peuvent être chargées sur le dépôt Github dans un dossier image" -->
+<!--[Plantation de haie de 5 ans](https://github.com/cnigfr/schema-plantation-de-haies/blob/master/ressources/IllustrationHaieBenedicte1.jpg)-->
 ![logo du CNIG à remplacer par l'image du standard](https://cnig.gouv.fr/IMG/png/cnig2022_geolocalise-petit.png)
 
 ## Contexte
