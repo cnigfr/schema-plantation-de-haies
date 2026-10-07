@@ -11,7 +11,7 @@
 ---
 <!-- Supprimer les trois tirets précédents (qui insèrent une ligne) -->
 
-# Standard <mark>_Nom_</mark>
+# Standard Plantation de haies
 
 <!-- Indiquer le nom du standard à la place de <mark>_Nom_</mark>. Le texte entre les balises "<mark>_" et "_</mark>" apparaît en italique surligné et doit être remplacé dans ce modèle -->
 
