@@ -170,5 +170,5 @@
       "example": "OUI"
     }
   ],
-  "primaryKey": "identifiant"
+  "primaryKey": "id_plantation"
 }
