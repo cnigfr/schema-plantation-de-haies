@@ -1,0 +1,173 @@
+{
+  "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+  "name": "haies",
+  "title": "Haies",
+  "description": "Plantations de haies pour ???",
+  "countryCode": "FR",
+  "homepage": "https://???",
+  "path": "https://schema.data.gouv.fr/cnigfr/schema-plantation-de-haies/latest/haie.json",
+  "created": "2026-10-23",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "id_plantation",
+      "title": "Identifiant pour la diffusion",
+      "description": "Identifiant de la plantation chez le fournisseur de données.",
+      "type": "string",
+      "example": "HA38F48_A1",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "type_implantation",
+      "title": "Type d'implantation",
+      "description": "Indique le mode d’implantation du linéaire : plantation ou par régénération naturelle assistée.",
+      "type": "string",
+      "enum": [
+        "PLA",
+        "RNA"
+      ],
+      "example": "PLA",
+      "constraints": {
+        "required": true
+      }
+    },
+	{
+      "name": "type_lineaire_cible",
+      "title": "Type de linéaire cible",
+      "description": "Indique le type de densité de linéaire ciblée et voulu à terme pour le linéaire planté.",
+      "type": "string",
+      "enum": [
+        "HAI",
+        "AAL",
+		"INC"
+      ],
+      "example": "HAI",
+      "constraints": {
+        "required": true
+      }
+    },
+	{
+      "name": "type_localisation_lineaire",
+      "title": "Type de localisation du linéaire",
+      "description": "Indique la localisation du linéaire par rapport à la parcelle, parcelle dans le sens unité de production.",
+      "type": "string",
+      "enum": [
+        "BOR",
+        "PAR",
+		"INC"
+      ],
+      "example": "BOR",
+      "constraints": {
+        "required": true
+      }
+    },
+	{
+      "name": "id_fournisseur_fonnees",
+      "title": "Identifiant du fournisseur de données",
+      "description": "Identifiant du fournisseur de la donnée de plantation à l’observatoire de la haie.",
+      "type": "string",
+      "pattern": "^[0-9]{14}$",
+      "example": "18006701900430",
+	  "constraints": {
+        "required": true
+      }
+    },
+	{
+      "name": "date_plantation",
+      "title": "Date de plantation",
+      "description": "Date à l'année de la fin de la campagne de la plantation.",
+      "type": "datetime",
+      "example": "2020-01-01T00:00:00Z",
+	  "constraints": {
+        "required": true
+      }
+    },
+	{
+	  "name": "geometrie",
+      "description": "Tracé 2D de la plantation réalisée",
+      "type": "geojson",
+      "constraints": {
+		"required": true
+      }
+    },
+	{
+      "name": "id_financeur_instructeur",
+      "title": "Identifiant du financeur instructeur",
+      "description": "Identifiant de la structure qui a instruit le dossier de subvention.",
+      "type": "string",
+      "pattern": "^[0-9]{14}$",
+      "example": "18006701900430"
+    },
+    {
+      "name": "financement_public",
+      "title": "Financement public",
+      "description": "Niveau de financement de la plantation par programme(s) de financement public. Ceux-ci peuvent être internationaux, régionaux, départementaux ou locaux.",
+      "type": "string",
+	  "enum": [
+		"TOT",
+		"PAR",
+		"AUC",
+		"INC"
+	  ],
+      "example": "PAR",
+	  "constraints": {
+        "required": true
+      }
+    },
+	{
+      "name": "commentaire_financement",
+      "title": "Commentaire sur le financement",
+      "description": "Informations complémentaires sur le niveau de financement de la plantation, par exemple, le taux de subvention, la liste complète des financeurs et/ou des programmes de financement de la plantation.",
+      "type": "string",
+      "example": "Plantation co-financée avec la région xxx à hauteur de 80% du montant total dans le cadre du programme xxx."
+    },
+	{
+      "name": "nbre_plants_plantesMVL",
+      "title": "Nombre de plants de plantes MVL",
+      "description": "Nombre de plants (arbre, arbuste) plantés étant de la marque Végétal local.",
+      "type": "integer",
+      "example": 8,
+	  "constraints": {
+        "minimum": 0
+      }
+    },
+	{
+      "name": "nbre_plants_plantes",
+      "title": "Nombre de plants de plantes",
+      "description": "Nombre de plants (arbre, arbuste) plantés au total.",
+      "type": "integer",
+      "example": 25,
+	  "constraints": {
+        "minimum": 0
+      }
+    },
+	{
+      "name": "nbre_rangs",
+      "title": "Nombre de rangs",
+      "description": "Nombre de rangs sur lesquels la plantation a été faite.",
+      "type": "string",
+	  "enum": [
+		"1",
+		"2",
+		"3",
+		"4"
+	  ],
+      "example": "1"
+    },
+    {
+      "name": "talus",
+      "title": "Talus",
+      "description": "Présence d'une embase de la haie constituée d'une surélévation du sol d'a minima 30 cm.",
+      "type": "string",
+	  "enum": [
+		"OUI",
+		"NON",
+		"INC"
+	  ],
+      "example": "OUI"
+    }
+  ],
+  "primaryKey": "identifiant"
+}

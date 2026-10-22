@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
         python-version: "3.10"
     - name: Cache pip
@@ -23,7 +23,10 @@ jobs:
           ${{ runner.os }}-
     - name: Installation des dépendances
       run: pip install -r requirements.txt
-    - name: Vérification du schéma et des fichiers d'exemples
+    - name: Vérification du schéma classe-haie et du fichier d'exemple associé
       run: |
-        frictionless validate --type schema exemple-schema.json
-        frictionless validate --schema exemple-schema.json exemple-valide.csv
+        frictionless validate --type schema schema/classe-haie/schema.json
+        frictionless validate --schema schema/classe-haie/schema.json schema/classe-haie/exemple-valide.csv
+    - name: Vérification du datapackage
+      run: |
+        frictionless validate datapackage.json
