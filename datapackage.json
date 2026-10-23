@@ -5,13 +5,13 @@
     "id": "datapackage-dgv",
     "resources": [
         {
-            "name": "classe-haie",
-            "path": "schema/classe-haie/exemple-valide.csv",
+            "name": "classe-plantation-haies",
+            "path": "schema/classe-plantation-haies/exemple-valide.csv",
             "profile": "tabular-data-resource",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
-            "schema": "schema/classe-haie/schema.json"
+            "schema": "schema/classe-plantation-haies/schema.json"
         }
     ]
 }

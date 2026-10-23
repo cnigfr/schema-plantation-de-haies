@@ -23,10 +23,10 @@ jobs:
           ${{ runner.os }}-
     - name: Installation des dépendances
       run: pip install -r requirements.txt
-    - name: Vérification du schéma classe-haie et du fichier d'exemple associé
+    - name: Vérification du schéma classe-plantation-haies et du fichier d'exemple associé
       run: |
-        frictionless validate --type schema schema/classe-haie/schema.json
-        frictionless validate --schema schema/classe-haie/schema.json schema/classe-haie/exemple-valide.csv
+        frictionless validate --type schema schema/classe-plantation-haies/schema.json
+        frictionless validate --schema schema/classe-plantation-haies/schema.json schema/classe-plantation-haies/exemple-valide.csv
     - name: Vérification du datapackage
       run: |
         frictionless validate datapackage.json
