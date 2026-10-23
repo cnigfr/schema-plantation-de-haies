@@ -64,7 +64,7 @@
       }
     },
 	{
-      "name": "id_fournisseur_fonnees",
+      "name": "id_fournisseur_donnees",
       "title": "Identifiant du fournisseur de données",
       "description": "Identifiant du fournisseur de la donnée de plantation à l’observatoire de la haie.",
       "type": "string",
