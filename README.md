@@ -63,13 +63,12 @@ De plus, de nombreux programmes de subvention et d’action ont été menées su
 
 ## Modalités de production des données
 
-> La plupart de ces données sont produites dans un cadre administratif, notamment lors de demande de subvention de plantation. Le standard permet de considérer et de conserver ces données pour une amélioration de la  "connaissance" du milieu.
+> La plupart de ces données sont produites dans un cadre administratif, notamment lors de demande de subvention de plantation.
+> Le standard permet de considérer et de conserver ces données pour une améliorer la connaissance des plantations de haies et permettre leur utilisation dans un cadre scientifique, d'améngament du territoire ou autres qu'administratif.
 
 ## Informations et participation au groupe de travail
 
 ### Méthodologie
-
-> _Cette partie peut être laissée telle quelle. Elle vise à expliquer les modalités d'adoption d'un standard par le CNIG._
 
 La méthodologie des groupes de travail du CNIG repose sur une diversité d'approches complémentaires :
 
@@ -81,20 +80,20 @@ L’objectif est d'aboutir à terme à un consensus qui se traduise en un standa
 
 ### Actualisation
 
-> Le standard de données "Plantation de haies" est en phase de finalisation de la réalisation et sera en phase de "Validation" (appel à commentaires public) fin décembre 2026 - janvier 2027. Les modalités de participation seront précisées sur [la page CNIG du standard](https://cnig.gouv.fr/gt-haies-a30201.html). _Préciser ici la phase d'avancement dans laquelle se trouve le standard selon la terminologie de [la Fabrique des standards](https://guides.data.gouv.fr/guides-de-data.gouv.fr/fabrique-des-standards/la-fabrique-des-standards) 
+> Le standard de données "Plantation de haies" est en phase de finalisation de réalisation avec le GT.
+> Il sera en phase de "Validation" (appel à commentaires public) fin décembre 2026 - janvier 2027. Les modalités de participation seront précisées sur [la page CNIG du standard](https://cnig.gouv.fr/gt-haies-a30201.html)
 
-Le projet de standard "Plantation de haies", puis le standard une fois validé par le CNIG, évoluera en fonction des évolutions réglementaires et de l'expression des besoins de la communauté des utilisateurs. On note que le GT Haies pourra aussi s'investir sur d'autres sous-thématiques de la haie comme la biomasse. Le GT Haies pourra ainsi couvrir d'autres objets et problématiques de la Haie comme la Biomasse par exemple.
-
-Les ressources associées et les bases de données correspondantes seront actualisées conformément au standard CNIG <mark>_thématique_</mark>. Les mises à jour de base de données sont effectuées en modifiant le cas échéant les données qui y figurent déjà.
+> Le projet de standard "Plantation de haies", puis le standard une fois validé par le CNIG, évoluera en fonction des évolutions réglementaires et de l'expression des besoins de la communauté des utilisateurs. 
+> On note que le GT Haies pourra s'investir sur d'autres objets et problématiques de la Haie comme la Biomasse par exemple.
 
 ### Comment contribuer
 
 > Vous pouvez contribuer au Groupe de travail en participant aux réunions et aux discussions. Inscription via [la page contact du CNIG](https://cnig.gouv.fr/spip.php?page=contact)
-> Vous pouvez également utiliser les outils proposés par github : en posant des questions et demandes d'évolution via [les Issues](https://github.com/cnigfr/schema-plantation-de-haies/issues)
+> Vous pouvez également utiliser les outils proposés par ce Github : en posant des questions et demandes d'évolution via [les Issues](https://github.com/cnigfr/schema-plantation-de-haies/issues)
 
 ### Nous contacter
 
-> Pour contacter le GT CNIG Haies, écrire à l’adresse cnig[at]cnig.fr.
+> Pour contacter le GT CNIG Haies, écrire à l’adresse cnig[at]cnig.fr ou via [la page contact](https://cnig.gouv.fr/spip.php?page=contact).
 
 ### Licence
 
