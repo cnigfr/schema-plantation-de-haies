@@ -27,7 +27,7 @@
 
 Davantage de documentation peut être trouvée sur le site du CNIG au lien suivant : <mark>_insérer le lien vers la page du GT_</mark>.
 
-> [Photographie d'une plantation de haie] (https://github.com/cnigfr/schema-plantation-de-haies/blob/master/ressources/HaieMAASA_photo.jpg)
+<!-- [Photographie d'une plantation de haie] (https://github.com/cnigfr/schema-plantation-de-haies/blob/master/ressources/HaieMAASA_photo.jpg) -->
 
 ## Contexte
 
