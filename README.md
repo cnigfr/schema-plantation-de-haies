@@ -1,50 +1,34 @@
-# Modèle de dépôt Github pour les standards CNIG
-
-> [!IMPORTANT]
-> **Attention** : Le modèle de fichier README débute après ce paragraphe. Dans la suite,
->
-> * toutes les consignes en citation, comme cette ligne, doivent être supprimées,
-> * tout ce qui est <mark>_surligné_</mark> doit être remplacé.
->
-> Vous trouverez l'ensemble des consignes et conseils pour utiliser ce modèle de dépôt sur [cette page de la documentation](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/weZQRU1RV5So9WzNyxlW/~/changes/19/la-fabrique-des-standards/realisation-du-standard/utiliser-le-modele-de-depot-github). 
-
----
-<!-- Supprimer les trois tirets précédents (qui insèrent une ligne) -->
-
 # Groupe de Travail CNIG Haie: Standard de données "Plantation de haies"
-
-> _Insérer une description du standard et des données concernées en quelques lignes. Ici comme dans la suite, il est recommandé de réutiliser le contenu du mandat du GT ou d'autres documents déjà rédigés. Voici plusieurs exemples pour vous inspirer dans la rédaction :_
+> Le standard défini un format de données commun permettant de caractériser de manière homogène toute nouvelle implantation de haie. Les données relatives aux plantations de haies sont notamment nécessaires au suivi et au pilotage du Pacte en faveur de la haie, porté par les Ministères en charge de l’agriculture et de l’environnement. Le Pacte fixe l’objectif d’un gain net de 50 000 km de haies à l’horizon 2030 et met en place d’un observatoire de la haie chargé de suivre l’évolution du linéaire et de contribuer à la constitution d’un référentiel cartographique national. 
+> La collecte des données de plantation permet ainsi de recenser les nouveaux linéaires plantés, de les localiser et de les caractériser, afin de mesurer leur contribution aux objectifs du Pacte. Ces informations sont nécessaires pour assurer un suivi consolidé des dispositifs d’aide à la plantation et pour disposer d’une vision territorialisée des plantations réalisées.
+> Ces données constituent donc un élément essentiel pour suivre la progression du linéaire de haies et éclairer le pilotage des politiques publiques en faveur de leur développement et de leur gestion durable.
 >
-> * _[standard des opération d'aménagement](https://github.com/cnigfr/schema-operations-amenagement/)_
-> * _[standard risques](https://github.com/cnigfr/Geostandards-Risques)._
->
-> _Afin de clarifier la lecture de cette description sur le site schema.data.gouv, préciser ici lorsque le standard n'est pas accompagné d'un schéma sur schema.data.gouv:_
->
-
-Ce standard CNIG possèdera très prochainement un schéma de données directement accessible sur schema.data.gouv.fr. 
-Davantage de documentation peut être trouvée sur le site du CNIG au lien suivant : https://cnig.gouv.fr/gt-haies-a30201.html.
+> Ce standard CNIG possèdera très prochainement un schéma de données directement accessible sur schema.data.gouv.fr. 
+> Davantage de documentation peut être trouvée sur le site du CNIG au lien suivant : https://cnig.gouv.fr/gt-haies-a30201.html.
 
 <p align="center"> <img src="ressources/HaieMAASA_photo.jpg" alt="Photographie d'une plantation de haie"</p>
+<p align="center"> <strong><em> Illustration d'une plantation de haie </em></strong></p>
 
 ## Contexte
-
 > Le présent document a pour objectif de faciliter l’échange de données sur les plantations de haies afin d’améliorer la connaissance de ces linéaires. L’information principale récupérée est le tracé du linéaire de plantation et des informations complémentaires.
-En effet, l’observatoire de la haie produit un référentiel cartographique de données socle des haies BDHaie v3 par photo-interprétation. Le standard « Plantation de Haies » permet de récupérer des informations sur les linéaires non identifiables par cette technique, les plantations étant des jeunes haies en devenir non visibles par imagerie aérienne. Ainsi, les données remontées par le standard sont complémentaires à ce référentiel de données socle et améliore la connaissance de la répartition de ces objets sur le territoire.
-De plus, de nombreux programmes de subvention et d’action ont été menées sur fond public pour favoriser la plantation de haies : ce standard permet de remonter des informations complémentaires sur le financement et quelques caractéristiques de la plantation afin de suivre l’action des politiques publiques. Il permettra également de calculer des indicateurs de suivi des haies comme :
-> -	Le gain net en mètre linéaire de haies lié aux politiques publiques ;
-> -	Le taux de survie des plantations sur le temps long ;
-> -	Le nombre de mètres linéaires dédiés à la régénération naturelle assistée ;
-> -	L’impact du nombre de rangs sur le succès des plantations.
+> 
+> En effet, l’observatoire de la haie produit un référentiel cartographique de données socle des haies BDHaie v3 par photo-interprétation. Le standard « Plantation de Haies » permet de récupérer des informations sur les linéaires non identifiables par cette technique, les plantations étant des jeunes haies en devenir non visibles par imagerie aérienne. Ainsi, les données remontées par le standard sont complémentaires à ce référentiel de données socle et améliore la connaissance de la répartition de ces objets sur le territoire.
+> 
+> De plus, de nombreux programmes de subvention et d’action ont été menées sur fond public pour favoriser la plantation de haies : ce standard permet de remonter des informations complémentaires sur le financement et quelques caractéristiques de la plantation afin de suivre l’action des politiques publiques. Il permettra également de calculer des indicateurs de suivi des haies comme :
+> * Le gain net en mètre linéaire de haies lié aux politiques publiques ;
+> * Le taux de survie des plantations sur le temps long ;
+> * Le nombre de mètres linéaires dédiés à la régénération naturelle assistée ;
+> * L’impact du nombre de rangs sur le succès des plantations.
+>
 > L’élaboration du standard a pris en compte la faisabilité de la standardisation à partir des données existantes. En effet, de nombreux acteurs publics et privés interviennent sur la « haie » au titre de différentes politiques publiques. Ainsi, suivant les objectifs de ces acteurs et les dynamiques dans les territoires, de nombreuses données existent mais sont très hétérogènes. Certaines données à la base administrative, récoltées pour des calculs de subvention doivent être remobilisées au titre de la connaissance. Ce standard se veut être équilibré entre l’effort de récupération des données existantes et les bonnes pratiques pour le futur. Les méthodologies, les approches par territoires sont très hétérogènes et le standard n’a pas vocation à modifier les organisations et méthodologies mises en place.
-
+>
 > Il n’existait pas de standard de données sur les plantations de haie. Ce premier standard permet une mise en commun de ces données au niveau national, ce qui représente une grande plus-value. 
 
 ## Cadre juridique
-
-> _Citer les textes liés aux données sur lesquelles porte le schéma. Même lorsque l'utilisation du schéma n'est pas mentionnée dans les textes, il peut être utile de faire référence ici aux lois, décrets, arrêtés portant spécifiquement sur les données, leurs conditions de collecte, de partage, etc. Il n'est pas utile de citer les textes plus généraux (portant sur l'open data par exemple)._
+> On note que les données "Plantations de haies" ne sont pas concernées par la Directive Inspire, ni par les textes sur données à forte valeur (HVD).
+> Les données relatives aux plantations de haies sont notamment nécessaires au suivi et au pilotage du Pacte en faveur de la haie, porté par les Ministères en charge de l’agriculture et de l’environnement. Le Pacte fixe l’objectif d’un gain net de 50 000 km de haies à l’horizon 2030 et met en place d’un observatoire de la haie chargé de suivre l’évolution du linéaire et de contribuer à la constitution d’un référentiel cartographique national. 
 
 ## Finalité
-
 > Le standard permet de considérer et de conserver ces données pour améliorer la connaissance des plantations de haies et permettre leur utilisation dans un cadre scientifique, d'améngament du territoire ou autre qu'administratif.
 > Il permettra le calcul d'indicateurs de suivi des haies comme :
 > *	Le gain net en mètre linéaire de haies lié aux politiques publiques ;
@@ -54,7 +38,6 @@ De plus, de nombreux programmes de subvention et d’action ont été menées su
 
 
 ## Cas d’usage
-
 > Le cas d'usage principal est l'alimentation de l'Observatoire de la Haie porté par le Ministère en charge de l'Agriculture et le Ministère en charge de l'Environnement. Il s'agit de centraliser au niveau national les données de plantations de haies :
 > * effectivement réalisées,
 > * subventionnées sur fond publics ou non,
@@ -72,11 +55,8 @@ De plus, de nombreux programmes de subvention et d’action ont été menées su
 > * Le dossier [schéma](schéma) contient le schéma ainsi que les documents qui lui sont liés;
 > * Les comptes-rendus de réunion et les documents de suivi du groupe de travail sont sur [la page dédiée](https://cnig.gouv.fr/gt-haies-a30201.html).  
 
-
 ## Modalités de production des données
-
 > La plupart de ces données sont produites dans un cadre administratif, notamment lors de demande de subvention de plantation.
-
 
 ## Informations et participation au groupe de travail
 
