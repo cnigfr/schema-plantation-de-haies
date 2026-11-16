@@ -56,6 +56,7 @@ De plus, de nombreux programmes de subvention et d’action ont été menées su
 * Le dossier [ressources](ressources) contient les documents utiles pour les utilisateurs du standard ;
 * Le dossier [groupe_de_travail_CNIG](groupe_de_travail_CNIG) contient les comptes-rendus de réunions et les documents de suivi du groupe de travail ;
 * Le dossier [standard](standard) contient le standard ainsi que les documents qui lui sont liés ;
+* Les comptes-rendus de réunion et les documents de suivi du groupe de travail sont sur [la page dédiée](https://cnig.gouv.fr/gt-haies-a30201.html).  
 
 > _A supprimer en l'absence de schéma JSON :_
 
@@ -82,15 +83,15 @@ L’objectif est d'aboutir à terme à un consensus qui se traduise en un standa
 
 > Il n'existe pas de standard national ou international préalable à celui-ci sur les "Plantations de haies".
 > Le standard de données "Plantation de haies v1" est en phase de finalisation de réalisation avec le GT dédié.
-> Il sera en phase de "Validation" (appel à commentaires public) fin décembre 2026 - janvier 2027. Les modalités de participation seront précisées sur [la page CNIG du standard](https://cnig.gouv.fr/gt-haies-a30201.html)
+> Il sera en phase de "Validation" (appel à commentaires public) fin décembre 2026 - janvier 2027. Les modalités de participation seront précisées sur [la page CNIG du standard](https://cnig.gouv.fr/gt-haies-a30201.html).
 
 > Le projet de standard "Plantation de haies", puis le standard une fois validé par le CNIG, évoluera en fonction des évolutions réglementaires et de l'expression des besoins de la communauté des utilisateurs. 
 > On note que le GT Haies pourra s'investir sur d'autres objets et problématiques de la Haie comme la Biomasse par exemple.
 
 ### Comment contribuer
 
-> Vous pouvez contribuer au Groupe de travail en participant aux réunions et aux discussions. Inscription via [la page contact du CNIG](https://cnig.gouv.fr/spip.php?page=contact)
-> Vous pouvez également utiliser les outils proposés par ce Github : en posant des questions et demandes d'évolution via [les Issues](https://github.com/cnigfr/schema-plantation-de-haies/issues)
+> Vous pouvez contribuer au Groupe de travail en participant aux réunions et aux discussions. Inscription via [la page contact du CNIG](https://cnig.gouv.fr/spip.php?page=contact).
+> Vous pouvez également utiliser les outils proposés par ce Github : en posant des questions et demandes d'évolution via [les Issues](https://github.com/cnigfr/schema-plantation-de-haies/issues).
 
 ### Nous contacter
 
