@@ -90,9 +90,8 @@ Les ressources associées et les bases de données correspondantes seront actual
 
 ### Comment contribuer
 
-> _Indiquer ici comment contribuer au standard. Par exemple :_
-Vous pouvez contribuer au Groupe de travail en participant aux réunions et aux discussions sur la liste de diffusion ci-dessus.
-Vous pouvez également utiliser les outils proposés par github : en posant des questions et demandes d'évolution via les Issues
+> Vous pouvez contribuer au Groupe de travail en participant aux réunions et aux discussions. Inscription via [la page contact du CNIG](https://cnig.gouv.fr/spip.php?page=contact)
+> Vous pouvez également utiliser les outils proposés par github : en posant des questions et demandes d'évolution via [les Issues](https://github.com/cnigfr/schema-plantation-de-haies/issues)
 
 Poser des questions, demandes d'évolutions via les IssuesVous pouvez contribuer au standard en créant une issue sur cette page (il s'agit d'une fonctionnalité permettant de poser une question, de faire une remarque, une suggestion etc. directement sur github, ce qui en informe automatiquement les responsables du dépôt).
 
