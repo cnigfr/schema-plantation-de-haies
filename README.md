@@ -31,7 +31,7 @@ Davantage de documentation peut être trouvée sur le site du CNIG au lien suiva
 <!-- Pour remplacer le logo du CNIG, suivre le modèle "Les images peuvent être chargées sur le dépôt Github dans un dossier image" -->
 <!--[Plantation de haie de 5 ans](https://github.com/cnigfr/schema-plantation-de-haies/blob/master/ressources/IllustrationHaieBenedicte1.jpg)-->
 [Photographie d'une plantation de haie]([https://cnig.gouv.fr/IMG/png/cnig2022_geolocalise-petit.png]
-[https://github.com/cnigfr/schema-plantation-de-haies/blob/master/ressources/HaieMAASA_photo.jpg]
+https://github.com/cnigfr/schema-plantation-de-haies/blob/master/ressources/HaieMAASA_photo.jpg
 
 ## Contexte
 
