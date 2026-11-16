@@ -45,39 +45,49 @@ De plus, de nombreux programmes de subvention et d’action ont été menées su
 
 ## Finalité
 
-> _Les enjeux et objectifs liés à la création du standard doivent être précisés ici._
+> Le standard permet de considérer et de conserver ces données pour améliorer la connaissance des plantations de haies et permettre leur utilisation dans un cadre scientifique, d'améngament du territoire ou autre qu'administratif.
+> Il permettra le calcul d'indicateurs de suivi des haies comme :
+> *	Le gain net en mètre linéaire de haies lié aux politiques publiques ;
+> *	Le taux de survie des plantations sur le temps long ;
+> *	Le nombre de mètres linéaires dédiés à la régénération naturelle assistée ;
+> *	L’impact du nombre de rangs sur le succès des plantations.
+
 
 ## Cas d’usage
 
-> _Présenter ici quelques cas d'usage de données conformes au schéma. Ces cas peuvent exister ou être fictifs._
+> Le cas d'usage principal est l'alimentation de l'Observatoire de la Haie porté par le Ministère en charge de l'Agriculture et le Ministère en charge de l'Environnement. Il s'agit de centraliser au niveau national les données de plantations de haies :
+> * effectivement réalisées,
+> * subventionnées sur fond publics ou non,
+> * dans le contexte agricole et autres,
+> * plantées au sens strict ou implanté en Régénération Naturelle Assistée,
+> * couvrant les haies au sens strict et les alignements d'arbres
+> * en France hexagonale et dans les DROMs
+>
+> Ce standard permet aussi la centralisation de données Plantations de haie à d’autres destinations que l'Observatoire de la Haie, par exemple sur un territoire donné.
 
 ## Organisation du dépôt
 
-* Le dossier [ressources](ressources) contient les documents utiles pour les utilisateurs du standard ;
-* Le dossier [groupe_de_travail_CNIG](groupe_de_travail_CNIG) contient les comptes-rendus de réunions et les documents de suivi du groupe de travail ;
-* Le dossier [standard](standard) contient le standard ainsi que les documents qui lui sont liés ;
-* Les comptes-rendus de réunion et les documents de suivi du groupe de travail sont sur [la page dédiée](https://cnig.gouv.fr/gt-haies-a30201.html).  
+> * Le dossier [ressources](ressources) contient les documents utiles pour les utilisateurs du standard ;
+> * Le dossier [standard](standard) contient le standard ainsi que les documents qui lui sont liés ;
+> * Le dossier [schéma](schéma) contient le schéma ainsi que les documents qui lui sont liés;
+> * Les comptes-rendus de réunion et les documents de suivi du groupe de travail sont sur [la page dédiée](https://cnig.gouv.fr/gt-haies-a30201.html).  
 
-> _A supprimer en l'absence de schéma JSON :_
-
-* Le dossier [schéma](schéma) contient le schéma ainsi que les documents qui lui sont liés.
 
 ## Modalités de production des données
 
 > La plupart de ces données sont produites dans un cadre administratif, notamment lors de demande de subvention de plantation.
-> Le standard permet de considérer et de conserver ces données pour une améliorer la connaissance des plantations de haies et permettre leur utilisation dans un cadre scientifique, d'améngament du territoire ou autres qu'administratif.
+
 
 ## Informations et participation au groupe de travail
 
 ### Méthodologie
+> La méthodologie des groupes de travail du CNIG repose sur une diversité d'approches complémentaires :
 
-La méthodologie des groupes de travail du CNIG repose sur une diversité d'approches complémentaires :
-
-* Construire **une gouvernance ouverte** à l'ensemble des parties prenantes, afin de susciter l’adhésion et de créer le cadre favorable à la pérennité du dispositif ;
-* Promouvoir et exploiter **les retours d'expériences** afin d'étudier les diversités d'usages et embarquer les acteurs en les positionnant au centre du processus d’alimentation des référentiels géographiques ;
-* Privilégier **l’interopérabilité** entre système d'informations à l’échelle nationale pour favoriser le partage et l’échange de données : éviter les doubles stockages, doubles saisies, etc. ;
-* S'appuyer sur les **processus éprouvés** de [standardisation du CNIG](http://cnig.gouv.fr/les-standards-cnig-a18959.html#Etapes-de-creation-d-un-Standard-CNIG) et de modélisation suivant [schema.data.gouv.fr](https://guides.etalab.gouv.fr/producteurs-schemas/).
-L’objectif est d'aboutir à terme à un consensus qui se traduise en un standard et un modèle de donnée commun pour la thématique considérée.
+> * Construire **une gouvernance ouverte** à l'ensemble des parties prenantes, afin de susciter l’adhésion et de créer le cadre favorable à la pérennité du dispositif ;
+> * Promouvoir et exploiter **les retours d'expériences** afin d'étudier les diversités d'usages et embarquer les acteurs en les positionnant au centre du processus d’alimentation des référentiels géographiques ;
+> * Privilégier **l’interopérabilité** entre système d'informations à l’échelle nationale pour favoriser le partage et l’échange de données : éviter les doubles stockages, doubles saisies, etc. ;
+> * S'appuyer sur les **processus éprouvés** de [standardisation du CNIG](http://cnig.gouv.fr/les-standards-cnig-a18959.html#Etapes-de-creation-d-un-Standard-CNIG) et de modélisation suivant [schema.data.gouv.fr](https://guides.etalab.gouv.fr/producteurs-schemas/).
+> L’objectif est d'aboutir à terme à un consensus qui se traduise en un standard et un modèle de donnée commun pour la thématique considérée.
 
 ### Actualisation
 
@@ -94,9 +104,7 @@ L’objectif est d'aboutir à terme à un consensus qui se traduise en un standa
 > Vous pouvez également utiliser les outils proposés par ce Github : en posant des questions et demandes d'évolution via [les Issues](https://github.com/cnigfr/schema-plantation-de-haies/issues).
 
 ### Nous contacter
-
 > Pour contacter le GT CNIG Haies, écrire à l’adresse cnig[at]cnig.fr ou via [la page contact](https://cnig.gouv.fr/spip.php?page=contact).
 
 ### Licence
-
 > Les travaux du GT CNIG Haies sont réalisés sous [Licence Ouverte Etalab 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/).
