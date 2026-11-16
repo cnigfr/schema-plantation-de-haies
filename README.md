@@ -24,7 +24,7 @@
 Ce standard CNIG possèdera très prochainement un schéma de données directement accessible sur schema.data.gouv.fr. 
 Davantage de documentation peut être trouvée sur le site du CNIG au lien suivant : https://cnig.gouv.fr/gt-haies-a30201.html.
 
-![Photographie d'une plantation de haie](ressources/HaieMAASA_photo.jpg)
+<p align="center"> <img src="ressources/HaieMAASA_photo.jpg" alt="Photographie d'une plantation de haie"</p>
 
 ## Contexte
 
