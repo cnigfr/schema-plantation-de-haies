@@ -28,7 +28,16 @@ Davantage de documentation peut être trouvée sur le site du CNIG au lien suiva
 
 ## Contexte
 
-> _Décrire le contexte dans lequel le schéma a été élaboré. Il peut être utile de renvoyer ici vers la page du GT CNIG où la documentation du standard correspondant peut être trouvée._
+> Le présent document a pour objectif de faciliter l’échange de données sur les plantations de haies afin d’améliorer la connaissance de ces linéaires. L’information principale récupérée est le tracé du linéaire de plantation et des informations complémentaires.
+En effet, l’observatoire de la haie produit un référentiel cartographique de données socle des haies BDHaie v3 par photo-interprétation. Le standard « Plantation de Haies » permet de récupérer des informations sur les linéaires non identifiables par cette technique, les plantations étant des jeunes haies en devenir non visibles par imagerie aérienne. Ainsi, les données remontées par le standard sont complémentaires à ce référentiel de données socle et améliore la connaissance de la répartition de ces objets sur le territoire.
+De plus, de nombreux programmes de subvention et d’action ont été menées sur fond public pour favoriser la plantation de haies : ce standard permet de remonter des informations complémentaires sur le financement et quelques caractéristiques de la plantation afin de suivre l’action des politiques publiques. Il permettra également de calculer des indicateurs de suivi des haies comme :
+> -	Le gain net en mètre linéaire de haies lié aux politiques publiques ;
+> -	Le taux de survie des plantations sur le temps long ;
+> -	Le nombre de mètres linéaires dédiés à la régénération naturelle assistée ;
+> -	L’impact du nombre de rangs sur le succès des plantations.
+> L’élaboration du standard a pris en compte la faisabilité de la standardisation à partir des données existantes. En effet, de nombreux acteurs publics et privés interviennent sur la « haie » au titre de différentes politiques publiques. Ainsi, suivant les objectifs de ces acteurs et les dynamiques dans les territoires, de nombreuses données existent mais sont très hétérogènes. Certaines données à la base administrative, récoltées pour des calculs de subvention doivent être remobilisées au titre de la connaissance. Ce standard se veut être équilibré entre l’effort de récupération des données existantes et les bonnes pratiques pour le futur. Les méthodologies, les approches par territoires sont très hétérogènes et le standard n’a pas vocation à modifier les organisations et méthodologies mises en place.
+
+> Il n’existait pas de standard de données sur les plantations de haie. Ce premier standard permet une mise en commun de ces données au niveau national, ce qui représente une grande plus-value. 
 
 ## Cadre juridique
 
@@ -54,13 +63,7 @@ Davantage de documentation peut être trouvée sur le site du CNIG au lien suiva
 
 ## Modalités de production des données
 
-> _Dans le cas où la création du standard interviendrait alors que les données sont déjà produites, documenter ici comment leur production a lieu. Dans le cas contraire, cette partie peut être supprimée._
-
-### Données ouvertes
-
-> _Dans le cas où les données sont publiées en open data, sinon, cette partie peut être supprimée._
-
-Les données relatives à <mark>_la thématique_</mark> sont ouvertes et sont à la disposition de tous. Elles seront publiées sur <https://www.data.gouv.fr>
+> La plupart de ces données sont produites dans un cadre administratif, notamment lors de demande de subvention de plantation. Le standard permet de considérer et de conserver ces données pour une amélioration de la  "connaissance" du milieu.
 
 ## Informations et participation au groupe de travail
 
@@ -88,7 +91,10 @@ Les ressources associées et les bases de données correspondantes seront actual
 ### Comment contribuer
 
 > _Indiquer ici comment contribuer au standard. Par exemple :_
-Vous pouvez contribuer au standard en créant une issue sur cette page (il s'agit d'une fonctionnalité permettant de poser une question, de faire une remarque, une suggestion etc. directement sur github, ce qui en informe automatiquement les responsables du dépôt).
+Vous pouvez contribuer au Groupe de travail en participant aux réunions et aux discussions sur la liste de diffusion ci-dessus.
+Vous pouvez également utiliser les outils proposés par github : en posant des questions et demandes d'évolution via les Issues
+
+Poser des questions, demandes d'évolutions via les IssuesVous pouvez contribuer au standard en créant une issue sur cette page (il s'agit d'une fonctionnalité permettant de poser une question, de faire une remarque, une suggestion etc. directement sur github, ce qui en informe automatiquement les responsables du dépôt).
 
 ### Nous contacter
 
