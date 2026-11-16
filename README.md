@@ -81,10 +81,9 @@ L’objectif est d'aboutir à terme à un consensus qui se traduise en un standa
 
 ### Actualisation
 
-> _Préciser ici la phase d'avancement dans laquelle se trouve le standard selon la terminologie de [la Fabrique des standards](https://guides.data.gouv.fr/guides-de-data.gouv.fr/fabrique-des-standards/la-fabrique-des-standards) (rédaction, validation, déploiement, etc.). Il peut être utile de donner des éléments de calendrier comme la date de passage en commission des standards ou devant le conseil plénier._
-> _Indiquer également les évolutions prévues ou prévisibles du standard (en fonction des évolutions réglementaires, des retours des utilisateurs, etc.), ainsi que les évolutions prévues pour les bases de données, logiciels, API, etc. concernées par le standard._
+> Le standard de données "Plantation de haies" est en phase de finalisation de la réalisation et sera en phase de "Validation" (appel à commentaires public) fin décembre 2026 - janvier 2027. Les modalités de participation seront précisées sur [la page CNIG du standard](https://cnig.gouv.fr/gt-haies-a30201.html). _Préciser ici la phase d'avancement dans laquelle se trouve le standard selon la terminologie de [la Fabrique des standards](https://guides.data.gouv.fr/guides-de-data.gouv.fr/fabrique-des-standards/la-fabrique-des-standards) 
 
-Le projet de standard <mark>_thématique_</mark>, puis le standard une fois validé par le CNIG, évoluera en fonction des évolutions réglementaires et de l'expression des besoins de la communauté des utilisateurs.
+Le projet de standard "Plantation de haies", puis le standard une fois validé par le CNIG, évoluera en fonction des évolutions réglementaires et de l'expression des besoins de la communauté des utilisateurs. On note que le GT Haies pourra aussi s'investir sur d'autres sous-thématiques de la haie comme la biomasse. Le GT Haies pourra ainsi couvrir d'autres objets et problématiques de la Haie comme la Biomasse par exemple.
 
 Les ressources associées et les bases de données correspondantes seront actualisées conformément au standard CNIG <mark>_thématique_</mark>. Les mises à jour de base de données sont effectuées en modifiant le cas échéant les données qui y figurent déjà.
 
@@ -93,12 +92,10 @@ Les ressources associées et les bases de données correspondantes seront actual
 > Vous pouvez contribuer au Groupe de travail en participant aux réunions et aux discussions. Inscription via [la page contact du CNIG](https://cnig.gouv.fr/spip.php?page=contact)
 > Vous pouvez également utiliser les outils proposés par github : en posant des questions et demandes d'évolution via [les Issues](https://github.com/cnigfr/schema-plantation-de-haies/issues)
 
-Poser des questions, demandes d'évolutions via les IssuesVous pouvez contribuer au standard en créant une issue sur cette page (il s'agit d'une fonctionnalité permettant de poser une question, de faire une remarque, une suggestion etc. directement sur github, ce qui en informe automatiquement les responsables du dépôt).
-
 ### Nous contacter
 
-Pour contacter le GT CNIG Haies, écrire à l’adresse cnig[at]cnig.fr.
+> Pour contacter le GT CNIG Haies, écrire à l’adresse cnig[at]cnig.fr.
 
 ### Licence
 
-Les travaux du GT CNIG Haies sont réalisés sous [Licence Ouverte Etalab 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/).
+> Les travaux du GT CNIG Haies sont réalisés sous [Licence Ouverte Etalab 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/).
