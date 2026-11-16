@@ -13,8 +13,6 @@
 
 # Groupe de Travail CNIG Haie: Standard de données "Plantation de haies"
 
-<!-- Indiquer le nom du standard à la place de <mark>_Nom_</mark>. Le texte entre les balises "<mark>_" et "_</mark>" apparaît en italique surligné et doit être remplacé dans ce modèle -->
-
 > _Insérer une description du standard et des données concernées en quelques lignes. Ici comme dans la suite, il est recommandé de réutiliser le contenu du mandat du GT ou d'autres documents déjà rédigés. Voici plusieurs exemples pour vous inspirer dans la rédaction :_
 >
 > * _[standard des opération d'aménagement](https://github.com/cnigfr/schema-operations-amenagement/)_
@@ -22,12 +20,11 @@
 >
 > _Afin de clarifier la lecture de cette description sur le site schema.data.gouv, préciser ici lorsque le standard n'est pas accompagné d'un schéma sur schema.data.gouv:_
 >
-> [!TIP]
-> Ce standard CNIG ne possède pas de schéma de données directement accessible sur schema.data.gouv.fr. 
 
-Davantage de documentation peut être trouvée sur le site du CNIG au lien suivant : <mark>_insérer le lien vers la page du GT_</mark>.
+Ce standard CNIG possèdera très prochainement un schéma de données directement accessible sur schema.data.gouv.fr. 
+Davantage de documentation peut être trouvée sur le site du CNIG au lien suivant : https://cnig.gouv.fr/gt-haies-a30201.html.
 
-<!-- [Photographie d'une plantation de haie] (https://github.com/cnigfr/schema-plantation-de-haies/blob/master/ressources/HaieMAASA_photo.jpg) -->
+![Photographie d'une plantation de haie] (/ressources/HaieMAASA_photo.jpg)
 
 ## Contexte
 
